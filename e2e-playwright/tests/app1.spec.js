@@ -43,6 +43,8 @@ test("Can add items to a shopping list.", async ({ page }) => {
 
 test("Can mark items collected.", async ({ page }) => { 
   await page.goto("/lists/1");
+  await page.locator("input[type=text]").type("second item");
+  await page.locator("input[type=submit]").first().click();
   await page.locator("input[type=submit]").nth(2).click();
 });
 

@@ -19,7 +19,7 @@
     <% if (item.collected === false) { %>
       <%= item.name %>
       <div class="form-group">
-        <form method="POST" action="/lists/<%= it.list_id%>/items/<%= item.id%>/collected">
+        <form method="POST" action="/lists/<%= it.list_id%>/items/<%= item.id%>/collect">
         <input class="bt btn-primary" type="submit" value="Mark collected!" />     
         </form>
       </div>
