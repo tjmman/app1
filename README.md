@@ -6,6 +6,6 @@ This is a shopping list web application that lets you:
 - mark items as collected
 - deactivate old lists.
 
-You can test application at: [https://](http://) 
+You can test application at: [[https://](https://app1-4v3u.onrender.com/)]([http://](https://app1-4v3u.onrender.com/)) 
 
 You can allso run this program locally by downloading file and running `docker-compose up` at apps root folder.  
